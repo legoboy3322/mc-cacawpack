@@ -36,8 +36,6 @@ jobs:
           
       - name: Zip
         run: |
-          cd ../
-          rm -rf cacawpack.zip
           zip -r cacawpack.zip * -x ".git/*" ".github/*" "scripts/*"
         if: startsWith(github.ref, 'refs/tags/')
 
