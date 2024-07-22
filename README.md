@@ -18,6 +18,7 @@
 ### Blocks
 ### Entity
 ### Item
+- Totem of undying cross
 ### Misc
 ### Models
 ### Painting
