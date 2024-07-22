@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 9,
+    "description": "CACAW Official Server Pack"
+  },
+  "language": {
+    "en_us": {
+      "name": "REVERSE UNO",
+      "region": "HELL",
+      "bidirectional": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 9,
+    "description": "ReverseUno Resources"
+  },
+  "language": {
+    "en_us": {
+      "name": "REVERSE UNO",
+      "region": "HELL",
+      "bidirectional": false
+    }
+  }
+}
