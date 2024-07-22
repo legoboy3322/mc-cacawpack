@@ -6,6 +6,8 @@
 ## Sounds
 ### Ambient
 ### Block
+### Item
+- totem
 ### Liquid
 ### Mobs
 ### Music
