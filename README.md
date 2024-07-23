@@ -3,6 +3,9 @@
 ## Lang
 ## Models
 ### Block
+### Item
+- Shield
+- Shield blocking
 ## Sounds
 ### Ambient
 ### Block
@@ -21,6 +24,7 @@
 ### Entity
 ### Item
 - Totem of undying cross
+- Custom shield (moved from entity)
 ### Misc
 ### Models
 ### Painting
