@@ -1,14 +1,28 @@
 #!/bin/bash
 
-if [[ $# -ne 1 ]]; then
-    echo "Needs 1 argument: mc version"
+if [[ $# -gt 1 ]]; then
+    echo "Needs 0 or 1 argument: mc version"
     exit 1
-elif [[ ! $1 =~ ^1\.[0-9]{1,2}$ ]]; then
+
+elif [[ $# -eq 0 ]]; then
+    if [[ -f "version.txt" ]]; then
+        vfile="version.txt"
+    elif [[ -f "../version.txt" ]]; then
+        vfile="../version.txt"
+    fi
+    v="v$(cat $vfile)"
+
+elif [[ $# -eq 1 ]]; then
+    v="v$1"
+fi
+
+if [[ ! $v =~ ^v1\.[0-9]{2}$ ]]; then
+    if [[ -n $vfile ]]; then
+        echo "$vfile has incorrect format"
+    fi
     echo "Needs version format #.##"
     exit 1
 fi
-
-v="v$1"
 
 echo "Tagging with $v"
 
