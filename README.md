@@ -1,6 +1,7 @@
 # CacawPack x
 
 ## Lang
+- Honeypot
 ## Models
 ### Block
 ### Item
@@ -11,8 +12,10 @@
 ### Block
 ### Item
 - totem
+- shield
 ### Liquid
 ### Mobs
+- Sam cat
 ### Music
 #### Game
 #### Nether
@@ -26,5 +29,6 @@
 - Totem of undying cross
 - Custom shield (moved from entity)
 ### Misc
+- pumpkin blur
 ### Models
 ### Painting
