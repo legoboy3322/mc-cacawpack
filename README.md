@@ -16,6 +16,7 @@
 ### Liquid
 ### Mobs
 - Sam cat
+- Strokin/Out of my room dragon
 ### Music
 #### Game
 #### Nether
